@@ -1,0 +1,32 @@
+# ─────────────────────────────────────────────
+# ScopeGuard — .gitignore
+# ─────────────────────────────────────────────
+
+# Generated assessment reports (potentially contain sensitive data)
+reports/
+*.log
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# Temporary files
+tmp/
+temp/
